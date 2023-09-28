@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+    padding: 0px;  
+    background-image: url('background\ image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Oswald', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 10vh;
+}
+
+.nav-container{
+    display: flex;
+    gap: 5rem;
+}
+
+.nav-option{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+ol{
+    text-decoration: underline 0.10em rgba(0,0,0,0);
+    text-underline-offset: 0.2em;
+    transition: text-decoration-color 300ms;
+    cursor: pointer;
+}
+
+ol:hover{
+    text-decoration-color: rgba(0,0,0,1) ;
+}
+
+.body-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 80vh;
+}
+
+.message-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-message{
+    color: antiquewhite;
+    font-size: 70px;
+}
+
+.restaurant-name{
+    color: white;
+    font-size: 100px;
+}
+
+.slogan{
+    font-size: 30px;
+    color: antiquewhite;
+    padding-bottom: 40px;
+}
+
+.body-page-menu-button{
+    background-color: antiquewhite;
+    border: none;
+    color: black;
+    padding: 20px 42px;
+    font-size: 15px;
+    cursor: pointer;
+    transition-duration: .2s;
+}
+
+.body-page-menu-button:hover{
+    background-color: rgb(255, 221, 177);
+}
+
+.footer-container{
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-message{
+    font-size: 30px;
+}
+
+.menu-container{
+    overflow: auto;
+    width: 100vw;
+}
+
+.menu-title-section{
+    font-size: 70px;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.first-menu-title,
+.second-menu-title,
+.third-menu-title{
+    font-size: 40px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+.first-menu-description,
+.second-menu-description,
+.third-menu-description{
+    font-size: 25px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-price{
+    font-size: 35px;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: antiquewhite
+}
+
+.about-title{
+    font-size: 50px;
+}
+
+.about-description{
+    font-size: 20px;
+    width: 50vw;
+    text-align: justify;
+    color: white
+}
